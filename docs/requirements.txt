@@ -1,0 +1,4 @@
+# Python packages required for docs builds
+
+sphinx>=1.7.6
+sphinxcontrib.datatemplates>=0.1.0

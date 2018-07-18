@@ -1,0 +1,15 @@
+language: python
+python:
+  - 3.5
+install:
+  - pip install -r docs/requirements.txt
+script: make html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  verbose: true
+  local-dir: docs/build
+  on:
+    branch: master
