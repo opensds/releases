@@ -2,7 +2,7 @@
 Aruba
 =====
 
-This is the Aruba release of Hotpot, the OpenSDS Controller project.
+This is the v0.2 Aruba release of the OpenSDS project.
 
 Features
 --------
@@ -37,7 +37,7 @@ The Aruba deliverable includes the OpenSDS Controller (hotpot), the northbound
 plugins (sushi), and the installer. The v0.2.0 deliverables can be downloaded
 for each using the links below:
 
-`HotPot <https://github.com/opensds/opensds/releases/tag/v0.2.0>`_
+`Hotpot <https://github.com/opensds/opensds/releases/tag/v0.2.0>`_
 
 `Sushi <https://github.com/opensds/nbp/releases/tag/v0.2.0>`_
 
