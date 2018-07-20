@@ -11,5 +11,6 @@ deploy:
   keep-history: true
   verbose: true
   local-dir: docs/build
+  fqdn: releases.opensds.io
   on:
     branch: master
