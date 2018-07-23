@@ -12,10 +12,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+import datetime
 
 # -- Project information -----------------------------------------------------
 
@@ -41,7 +38,7 @@ release = ''
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.githubpages',
-    # 'sphinxcontrib.datatemplates',
+    'sphinxcontrib.datatemplates',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -170,3 +167,22 @@ texinfo_documents = [
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# -- Datatemplate functions --------------------------------------------------
+
+def format_date(s, fmt='%b %d'):
+    if isinstance(s, (datetime.date, datetime.datetime)):
+        d = s
+    else:
+        d = datetime.datetime.strptime(s, '%Y-%m-%d')
+    return d.strftime(fmt)
+
+
+def build_inited(app):
+    # Make format_date visible in the template context.
+    app.builder.templates.environment.globals['format_date'] = format_date
+
+
+def setup(app):
+    app.info('Initializing')
+    app.connect('builder-inited', build_inited)

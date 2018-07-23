@@ -16,6 +16,11 @@ currently is following a roughly six month release cadence.
      * Status
      * Release Date
 
+   - * :doc:`bali/index`
+     * v0.3 (planned)
+     * Under Development
+     * 2018-12-10 (planned)
+
    - * :doc:`aruba/index`
      * v0.2.0
      * Latest Stable
@@ -31,5 +36,6 @@ currently is following a roughly six month release cadence.
    :maxdepth: 1
    :hidden:
 
+   bali/index
    aruba/index
    zealand/index
