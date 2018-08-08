@@ -1,0 +1,90 @@
+---
+start-week: 2018-07-02
+release-week: 2018-12-10
+cycle:
+- end: '2018-06-29'
+  name: R-24
+  start: '2018-06-25'
+- end: '2018-07-06'
+  name: R-23
+  start: '2018-07-02'
+- end: '2018-07-13'
+  name: R-22
+  start: '2018-07-09'
+- end: '2018-07-20'
+  name: R-21
+  start: '2018-07-16'
+- end: '2018-07-27'
+  name: R-20
+  start: '2018-07-23'
+- end: '2018-08-03'
+  name: R-19
+  start: '2018-07-30'
+- end: '2018-08-10'
+  name: R-18
+  start: '2018-08-06'
+  events:
+  - b-1
+- end: '2018-08-17'
+  name: R-17
+  start: '2018-08-13'
+- end: '2018-08-24'
+  name: R-16
+  start: '2018-08-20'
+- end: '2018-08-31'
+  name: R-15
+  start: '2018-08-27'
+- end: '2018-09-07'
+  name: R-14
+  start: '2018-09-03'
+- end: '2018-09-14'
+  name: R-13
+  start: '2018-09-10'
+- end: '2018-09-21'
+  name: R-12
+  start: '2018-09-17'
+- end: '2018-09-28'
+  name: R-11
+  start: '2018-09-24'
+  events:
+  - b-2
+- end: '2018-10-05'
+  name: R-10
+  start: '2018-10-01'
+- end: '2018-10-12'
+  name: R-9
+  start: '2018-10-08'
+- end: '2018-10-19'
+  name: R-8
+  start: '2018-10-15'
+- end: '2018-10-26'
+  name: R-7
+  start: '2018-10-22'
+- end: '2018-11-02'
+  name: R-6
+  start: '2018-10-29'
+- end: '2018-11-09'
+  name: R-5
+  start: '2018-11-05'
+  events:
+  - b-3
+- end: '2018-11-16'
+  name: R-4
+  start: '2018-11-12'
+- end: '2018-11-23'
+  name: R-3
+  start: '2018-11-19'
+- end: '2018-11-30'
+  name: R-2
+  start: '2018-11-26'
+  events:
+  - b-rc
+- end: '2018-12-07'
+  name: R-1
+  start: '2018-12-03'
+- end: '2018-12-14'
+  name: R-0
+  start: '2018-12-10'
+  events:
+  - b-release
+
