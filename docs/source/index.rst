@@ -16,8 +16,13 @@ currently is following a roughly six month release cadence.
      * Status
      * Release Date
 
+   - * :doc:`capri/index`
+     * v0.6 (planned)
+     * Future
+     * 2019-06-17 (planned)
+
    - * :doc:`bali/index`
-     * v0.4
+     * v0.4.0
      * Latest Stable
      * 2018-12-11
 
@@ -36,6 +41,7 @@ currently is following a roughly six month release cadence.
    :maxdepth: 1
    :hidden:
 
+   capri/index
    bali/index
    aruba/index
    zealand/index
