@@ -17,7 +17,7 @@ currently is following a roughly six month release cadence.
      * Release Date
 
    - * :doc:`bali/index`
-     * v0.3 (planned)
+     * v0.4 (planned)
      * Under Development
      * 2018-12-10 (planned)
 
