@@ -17,13 +17,13 @@ currently is following a roughly six month release cadence.
      * Release Date
 
    - * :doc:`bali/index`
-     * v0.4 (planned)
-     * Under Development
-     * 2018-12-10 (planned)
+     * v0.4
+     * Latest Stable
+     * 2018-12-11
 
    - * :doc:`aruba/index`
      * v0.2.0
-     * Latest Stable
+     * Maintained Stable
      * 2018-06-29
 
    - * :doc:`zealand/index`
